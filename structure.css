@@ -1,0 +1,36 @@
+code{
+    background-color: #2db;
+    border-radius: 10px;
+    color: beige;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px 15px;
+    text-align: center;
+}
+
+header,
+section,
+aside,
+footer{
+    margin: 0 2% 25px 2%;
+}
+
+section{
+    float: left;
+    width: 65%;
+}
+
+aside{
+    float: left;
+    width: 25%;
+}
+
+header{
+    clear:both;
+    margin-top: 10px;
+}
+
+footer{
+    clear: both;
+    margin-bottom: 10px;
+}

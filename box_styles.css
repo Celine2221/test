@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    background-color: #dde0e3;
+}
+
+em, strong{
+    background-color: #b2d6ff;
+    display: inline;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+/*p{
+    padding: 20px 10px; (vertical/horizontal)
+    or
+    padding: 20px 0 20px 10px; (top, right, bottom, left)
+} */
+
+h1{
+    padding: 50px;
+    border: 3px solid #5d6063;
+    border-bottom: 3px solid purple;
+}
+
+strong{
+    padding: 50px;
+}
+
+div{
+    color: white;
+    background-color: #5995da;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #5d6063;
+    border-radius: 5px;
+    width: 300px; /*allows you to set the width of the element*/
+    box-sizing: border-box;
+    margin: 20px auto;
+}
